@@ -1,15 +1,15 @@
 <?php require_once('symbol.php') ?>
 <style>
-    .logo {
-        top: 11vh;
-        align-items: center;
-        justify-content: center;
-        background-color: transparent;
-    }
+.logo {
+    top: 11vh;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
 
-    .logo img {
-        width: 4rem;
-    }
+.logo img {
+    width: 4rem;
+}
 </style>
 <div class="main_login">
     <div class="logo"><img src="img/logo.png" alt="logo"></div>
@@ -32,20 +32,24 @@
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col">
-                        <input maxlength="1" type="text" class="form-control text-center input4" oninput ="checkAndFocus(4)" >
-                    </div>
-                    <div  class="col">
-                        <input maxlength="1" type="text" class="form-control text-center input3" oninput ="checkAndFocus(3)" >
+                        <input maxlength="1" type="text" class="form-control text-center input4"
+                            oninput="checkAndFocus(4) ; checkAndFocusForDelete(4)">
                     </div>
                     <div class="col">
-                        <input maxlength="1" type="text" class="form-control text-center input2" oninput ="checkAndFocus(2)" >
+                        <input maxlength="1" type="text" class="form-control text-center input3"
+                            oninput="checkAndFocus(3) ; checkAndFocusForDelete(3)">
                     </div>
                     <div class="col">
-                        <input maxlength="1" type="text" class="form-control text-center input1" oninput ="checkAndFocus(1)" >
+                        <input maxlength="1" type="text" class="form-control text-center input2"
+                            oninput="checkAndFocus(2) ; checkAndFocusForDelete(2)">
+                    </div>
+                    <div class="col">
+                        <input maxlength="1" type="text" class="form-control text-center input1"
+                            oninput="checkAndFocus(1) ; checkAndFocusForDelete(1)">
                     </div>
                 </div>
             </div>
-            
+
             <button class="btn btn-info" id="chk_login" onclick="chkLogin()">تایید</button>
         </div>
     </div>
