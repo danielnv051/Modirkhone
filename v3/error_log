@@ -1,0 +1,48 @@
+[03-Dec-2023 20:50:59 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/qndomtoj/modirkhone.ir/app3/symbol.php on line 339
+[03-Dec-2023 20:51:01 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/qndomtoj/modirkhone.ir/app3/symbol.php on line 339
+[04-Dec-2023 18:29:05 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 18:29:12 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 18:30:08 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 18:32:48 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 18:36:52 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 18:41:33 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 18:50:45 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 18:54:47 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 18:56:49 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 18:57:12 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 18:57:58 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 18:58:36 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 21:52:14 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 21:52:16 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[04-Dec-2023 21:52:19 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 05:48:36 Asia/Tehran] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/qndomtoj/modirkhone.ir/app3/managerlist.php on line 95
+[05-Dec-2023 23:44:04 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 23:44:09 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 23:44:11 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 23:44:13 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 23:44:41 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 23:46:25 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 23:46:27 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 23:47:02 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 23:49:45 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 23:49:46 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 23:49:51 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 23:49:53 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 23:50:15 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[05-Dec-2023 23:53:06 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[06-Dec-2023 00:11:55 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[06-Dec-2023 00:15:25 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[06-Dec-2023 00:15:26 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[06-Dec-2023 00:25:05 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[06-Dec-2023 00:36:23 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[06-Dec-2023 00:36:25 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[06-Dec-2023 00:36:36 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[06-Dec-2023 00:57:04 Asia/Tehran] PHP Parse error:  syntax error, unexpected '<' in /home/qndomtoj/modirkhone.ir/app3/splash.php on line 3
+[10-Dec-2023 11:34:33 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[10-Dec-2023 11:34:35 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[10-Dec-2023 16:42:46 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[10-Dec-2023 16:42:47 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[11-Dec-2023 06:33:35 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[11-Dec-2023 06:42:18 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[11-Dec-2023 06:42:20 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
+[11-Dec-2023 06:42:21 Asia/Tehran] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, integer given in /home/qndomtoj/modirkhone.ir/app3/func.php on line 187
