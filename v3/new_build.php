@@ -26,16 +26,16 @@ if (isset($_POST['esm'])) {
 ?>
 
 <style>
-    .saken-info .input-group input {
-        border-bottom: 1px solid silver;
-    }
+.saken-info .input-group input {
+    border-bottom: 1px solid silver;
+}
 
-    h3 {
-        padding: 1rem;
-        font-size: 1rem;
-        width: 100%;
-        text-align: center;
-    }
+h3 {
+    padding: 1rem;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+}
 </style>
 
 <div class="saken-items saken-alone" style="display:<?php echo $show_pos1; ?>">
@@ -85,15 +85,15 @@ if (isset($_POST['esm'])) {
                     <div class="input-group-prepend">
                         <span class="input-group-text"><?php echo $charge; ?> مبلغ شارژ ساختمان</span>
                     </div>
-                    <input type="text" class="form-control" name="fee" required>
+                    <input type="text" class="form-control" name="fee" id="feeInput" oninput="formatInput()">
                 </div>
-    <!-- city and addres -->
+                <!-- city and addres -->
                 <div class="input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text"><?php echo $building; ?>استان </span>
                     </div>
                     <select name="" id="province" onchange="updateCities()" class="form-control">
-                        
+
                     </select>
 
                 </div>
@@ -101,8 +101,8 @@ if (isset($_POST['esm'])) {
                     <div class="input-group-prepend">
                         <span class="input-group-text"><?php echo $building; ?> شهر </span>
                     </div>
-                    <select name="" id="city"  class="form-control">
-                        
+                    <select name="" id="city" class="form-control">
+
                     </select>
 
                 </div>
@@ -113,7 +113,7 @@ if (isset($_POST['esm'])) {
                     <textarea name="" id="" class="form-control"></textarea>
 
                 </div>
-    <!-- end of city and addres -->
+                <!-- end of city and addres -->
 
                 <div class="input-group">
                     <div class="input-group-prepend">
@@ -130,7 +130,9 @@ if (isset($_POST['esm'])) {
 </div>
 
 <div class="saken-items saken-alone" style="display:<?php echo $show_pos2; ?>">
-    <h3 class="text-success"><? echo $sym_check_ok; ?> ساختمان جدید با موفقیت ایجاد شد</h3>
+    <h3 class="text-success">
+        <? echo $sym_check_ok; ?> ساختمان جدید با موفقیت ایجاد شد
+    </h3>
 </div>
 
 

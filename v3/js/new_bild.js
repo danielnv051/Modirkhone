@@ -1314,3 +1314,21 @@ function updateCities() {
 }
 
 updateCities();
+
+
+
+
+
+function formatInput() {
+    let feeInput = document.getElementById("feeInput");
+    let inputValue = feeInput.value.replace(/\D/g, '');
+    let separatedGroups = [];
+
+    for (let i = 0; i < inputValue.length; i += 3) {
+        separatedGroups.push(inputValue.slice(i, i + 3));
+    }
+
+    let result = separatedGroups.join(',');
+
+    feeInput.value = result;
+}
