@@ -4,6 +4,10 @@ $return_link = "manager.php?id=1";
 require_once('page_header.php');
 ?>
 
+<link rel="stylesheet" href="static/css/lib/persian-datepicker.min.css">
+<link rel="stylesheet" href="static/css/main.css">
+<script src="static/js/lib/jquery-3.2.1.min.js"></script>
+
 <style>
     .input-group-text {
         display: flex;
@@ -68,9 +72,16 @@ require_once('page_header.php');
             </div>
             <div class="input-group">
                 <div class="input-group-prepend">
-                    <span class="input-group-text"><?php echo $sym_money; ?>مبلغ(تومان)</span>
+                    <span class="input-group-text"><?php echo $sym_money; ?>مبلغ</span>
                 </div>
                 <input type="number" class="form-control" id="debt" value="">
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><?php echo $sym_date_from_to; ?>تاریخ</span>
+                </div>
+                <input type="text" class="form-control" id="from_date" value="">
+                <div class="range-from-example" style="display:none;width: 100%; margin-top: 0.6rem;"></div>
             </div>
             <div class="input-group" style="display:flex;flex-direction: row;align-items: stretch;">
                 <div class="input-group-prepend">
@@ -116,3 +127,36 @@ require_once('page_header.php');
 </div>
 
 <?php require_once('footer.php'); ?>
+
+<script src="static/js/lib/persian-date.min.js"></script>
+<script src="static/js/lib/persian-datepicker.min.js"></script>
+<script src="static/js/app.js"></script>
+<script>
+    var from;
+    from = $(".range-from-example").persianDatepicker({
+        inline: true,
+        altField: '.range-from-example-alt',
+        altFormat: 'LLLL',
+        initialValue: false,
+        onSelect: function(unix) {
+            var rooz = from.getState().selected.date;
+            var mah = from.getState().selected.month;
+            var saal = from.getState().selected.year;
+            var x = saal + '/' + mah + '/' + rooz;
+            $('#from_date').val(x);
+
+            $('.table-days td').click(function() {
+                $('.range-from-example').css('display', 'none');
+            });
+
+            $('.month-item').click(function() {
+                $('.range-from-example').css('display', 'inline');
+            });
+
+        }
+    });
+
+    $('#from_date').click(function() {
+        $('.range-from-example').css('display', 'inline');
+    });
+</script>

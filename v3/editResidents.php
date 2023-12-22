@@ -79,7 +79,7 @@ require_once('page_header.php');
             </div>
             <div class="input-group">
                 <div class="input-group-prepend">
-                    <span class="input-group-text"><?php echo $sym_building_unit_num; ?> شماره واحد</span>
+                    <span class="input-group-text"><?php echo $sym_building_unit_num; ?> عنوان واحد</span>
                 </div>
                 <input type="text" class="form-control" id="debt" value="">
             </div>
@@ -87,13 +87,13 @@ require_once('page_header.php');
                 <div class="input-group-prepend">
                     <span class="input-group-text"><?php echo $sym_building_floor_num; ?> شماره طبقه</span>
                 </div>
-                <input type="number" class="form-control" id="debt" value="">
+                <input type="number" class="form-control" id="debt" value="" min="0">
             </div>
             <div class="input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text"><?php echo $sym_money; ?> میزان شارژ</span>
                 </div>
-                <input type="number" class="form-control" id="debt" value="">
+                <input type="number" class="form-control" id="debt" value="" min="0">
             </div>
             <div class="input-group">
                 <div class="input-group-prepend">

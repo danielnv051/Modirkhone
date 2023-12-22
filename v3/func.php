@@ -16,6 +16,27 @@ function db()
     mysqli_set_charset($conn, "utf8");
 }
 
+function otp($tnum, $code)
+{
+    $curl = curl_init();
+
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => "http://ippanel.com:8080/?apikey=WIsqaEu45JFhybtmDhwJqAlySO2DDanRt7F10rdo_5E%3D&pid=nx5eglt0qa6352a&fnum=5000125475&tnum=$tnum&p1=vcode&v1=$code",
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => '',
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 0,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => 'GET',
+    ));
+
+    $response = curl_exec($curl);
+
+    curl_close($curl);
+    return $response;
+}
+
 function checkStates($mtel, $active_code, $pos)
 {
     include('jdf.php');
@@ -31,6 +52,8 @@ function checkStates($mtel, $active_code, $pos)
         $sql = "SELECT * FROM `users` WHERE `mtel` LIKE '%" . $mtel . "%' ORDER BY `uid` DESC";
         $result = mysqli_query($GLOBALS['conn'], $sql);
         $num = mysqli_num_rows($result);
+        $z = otp($mtel, $active_code);
+
         if ($num < 1) {
             $sqlp = "INSERT INTO `users`(`uid`,`mtel`,`zaman`,`sms`,`ip`,`os`) VALUES(NULL, '" . $mtel . "', '" . $jalali_date . "','" . $active_code . "','" . $ip . "','" . $os . "')";
             $resultt = mysqli_query($GLOBALS['conn'], $sqlp);
@@ -46,7 +69,7 @@ function checkStates($mtel, $active_code, $pos)
         $rr = mysqli_fetch_assoc($result);
         if ($rr['sms'] == $active_code) {
             $id = $rr['uid'];
-            setcookie('uid', $id, time() + 86900, '/');
+            setcookie('uid', $id, time() + 259200, '/');
             return $id;
         } else {
             return 0;
